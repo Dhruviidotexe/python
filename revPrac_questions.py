@@ -132,3 +132,136 @@ b= temp
 print("After swap:", a,b)
 
 ## ____________________________
+
+# membership operators
+a=[1,2,3,4,5]
+print(5 in a)
+print(10 not in a)
+
+## ____________________________
+
+word='python'
+print('y' in word)
+print('j' not in word)
+
+## ____________________________
+
+students=["arun", "ravi", "meena"]
+name=input("students name: ")
+print(name in students)
+
+## ____________________________
+
+# Identity Operator
+a=[1,2,3]
+a=b
+print(a is b)
+
+## ____________________________
+
+x=[10,20]
+y=[10,20]
+print(x==y)
+print(x is y)
+
+## ____________________________
+
+value= 10
+print(value is not None)
+print(value is None)
+value= None
+print(value is None)
+
+## ____________________________
+
+a=[1,2]
+b=a
+print(a is b)
+print(a is not b)
+
+## ____________________________
+
+a,b= 12,4
+print(a=b-2*b/2)
+
+## ____________________________
+
+print((2+ 3) * 4)
+
+## ____________________________
+
+n = int(input("numbers: "))
+print(n > 0 and n% 2== 0 and n<100)
+
+## ____________________________
+
+n = int(input("numbers: "))
+a=n%2==0
+b=n%2==0
+print((a or b) and not (a and b))
+
+## ____________________________
+
+
+ch = input("Enter one character: ").lower()
+print(len(ch) == 1 and ch in "aeiou")
+
+## ____________________________
+
+x=5
+y=10
+print(x+y)
+
+## ____________________________
+
+x='15'
+print(int(x)+ 20)
+
+## ____________________________
+
+x= 3.5
+y= 4.7
+z= print(int(x)+ int(y))
+
+## ____________________________
+
+name= "dhruvi"
+print(name.capitalize())
+print(name.upper())
+print(name.lower())
+print(name.isalnum())
+print(name.islower())
+print(name.isdigit())
+
+## ____________________________
+
+
+print("banana".count("a"))
+
+## ____________________________
+
+a={5,8,6,4}
+print(a)
+
+## ____________________________
+
+a= [1,2,3,4,5]
+print(a)
+b=[1,2,3,8,5,6,4]
+print(a)
+
+## ____________________________
+
+a= [1,2,3,4,5]
+print(a)
+b=[1,2,3,8,5,6,4]
+print(a)
+print(a + b)
+
+## ____________________________
+
+list = ["abc", 1.2, 1]
+print(list)
+
+## ____________________________
+
